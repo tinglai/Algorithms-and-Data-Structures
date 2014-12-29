@@ -1,0 +1,192 @@
+100	./script.sh: line 8:  4693 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.003
+120	./script.sh: line 8:  4696 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.004
+140	./script.sh: line 8:  4699 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.006
+160	./script.sh: line 8:  4702 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.010
+180	./script.sh: line 8:  4705 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.013
+200	./script.sh: line 8:  4708 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.016
+220	./script.sh: line 8:  4711 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.023
+240	./script.sh: line 8:  4714 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.028
+260	./script.sh: line 8:  4717 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.034
+280	./script.sh: line 8:  4720 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.042
+300	./script.sh: line 8:  4723 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.053
+320	./script.sh: line 8:  4726 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.062
+340	./script.sh: line 8:  4729 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.074
+360	./script.sh: line 8:  4732 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.087
+380	./script.sh: line 8:  4735 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.118
+400	./script.sh: line 8:  4738 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.118
+420	./script.sh: line 8:  4741 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.135
+440	./script.sh: line 8:  4744 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.157
+460	./script.sh: line 8:  4747 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.195
+480	./script.sh: line 8:  4750 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.211
+500	./script.sh: line 8:  4753 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.239
+520	./script.sh: line 8:  4756 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.340
+540	./script.sh: line 8:  4759 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.557
+560	./script.sh: line 8:  4765 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.614
+580	./script.sh: line 8:  4768 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+0.696
+600	./script.sh: line 8:  4771 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.088
+620	./script.sh: line 8:  4774 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.292
+640	./script.sh: line 8:  4777 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.328
+660	./script.sh: line 8:  4780 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.568
+680	./script.sh: line 8:  4783 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.773
+700	./script.sh: line 8:  4786 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.823
+720	./script.sh: line 8:  4790 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+1.765
+740	./script.sh: line 8:  4793 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+2.256
+760	./script.sh: line 8:  4796 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+2.716
+780	./script.sh: line 8:  4799 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+2.892
+800	./script.sh: line 8:  4802 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+3.105
+820	./script.sh: line 8:  4806 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+3.437
+840	./script.sh: line 8:  4809 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+3.684
+860	./script.sh: line 8:  4812 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+3.950
+880	./script.sh: line 8:  4815 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+4.244
+900	./script.sh: line 8:  4818 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+4.562
+920	./script.sh: line 8:  4822 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+4.896
+940	./script.sh: line 8:  4825 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+5.153
+960	./script.sh: line 8:  4831 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+5.313
+980	./script.sh: line 8:  4834 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+5.912
+1000	./script.sh: line 8:  4837 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+6.281
+1020	./script.sh: line 8:  4840 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+6.591
+1040	./script.sh: line 8:  4845 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+7.160
+1060	./script.sh: line 8:  4850 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+7.525
+1080	./script.sh: line 8:  4853 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+7.981
+1100	./script.sh: line 8:  4857 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+8.332
+1120	./script.sh: line 8:  4860 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+9.165
+1140	./script.sh: line 8:  4870 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+9.458
+1160	./script.sh: line 8:  4873 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+10.109
+1180	./script.sh: line 8:  4876 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+11.479
+1200	./script.sh: line 8:  4879 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+11.301
+1220	./script.sh: line 8:  4882 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+12.044
+1240	./script.sh: line 8:  4887 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+12.575
+1260	./script.sh: line 8:  4893 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+13.066
+1280	./script.sh: line 8:  4897 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+9.910
+1300	./script.sh: line 8:  4900 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+15.116
+1320	./script.sh: line 8:  4903 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+15.213
+1340	./script.sh: line 8:  4906 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+17.922
+1360	./script.sh: line 8:  4910 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+16.895
+1380	./script.sh: line 8:  4915 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+17.976
+1400	./script.sh: line 8:  4919 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+18.528
+1420	./script.sh: line 8:  4926 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+19.779
+1440	./script.sh: line 8:  4939 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+20.358
+1460	./script.sh: line 8:  4944 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+21.957
+1480	./script.sh: line 8:  4948 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+22.614
+1500	./script.sh: line 8:  4952 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+24.544
+1520	./script.sh: line 8:  4962 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+24.769
+1540	./script.sh: line 8:  4966 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+24.774
+1560	./script.sh: line 8:  5025 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+27.345
+1580	./script.sh: line 8:  5104 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+29.212
+1600	./script.sh: line 8:  5108 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+29.420
+1620	./script.sh: line 8:  5114 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+28.892
+1640	./script.sh: line 8:  5119 Segmentation fault      ./$PROGRAM_NAME $i > /dev/null 2>&1
+28.871
+1660	./script.sh: line 8:  5123 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+32.788
+1680	./script.sh: line 8:  5306 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+32.890
+1700	./script.sh: line 8:  5342 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+34.142
+1720	./script.sh: line 8:  5356 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+35.551
+1740	./script.sh: line 8:  5387 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+39.810
+1760	./script.sh: line 8:  5431 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+39.741
+1780	./script.sh: line 8:  5477 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+40.217
+1800	./script.sh: line 8:  5518 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+42.420
+1820	./script.sh: line 8:  5578 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+45.595
+1840	./script.sh: line 8:  5612 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+23.829
+1860	./script.sh: line 8:  5622 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+46.817
+1880	./script.sh: line 8:  5703 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+50.638
+1900	./script.sh: line 8:  5828 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+54.182
+1920	./script.sh: line 8:  5871 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+56.395
+1940	./script.sh: line 8:  5922 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+56.865
+1960	./script.sh: line 8:  5971 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+58.758
+1980	./script.sh: line 8:  5981 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+57.816
+2000	./script.sh: line 8:  5988 Aborted                 ./$PROGRAM_NAME $i > /dev/null 2>&1
+64.271
