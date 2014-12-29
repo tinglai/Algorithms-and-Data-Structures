@@ -1,0 +1,46 @@
+VICTORY IN ROUND 22! AI35 was the last zombie. You survived with 20 health left.
+Zombies still active: 0
+First zombies killed:
+AI22 1
+AI24 2
+AI96 3
+Zombone 4
+Zombine 5
+AI87 6
+AI146 7
+MrBonyPants 8
+AI106 9
+AI123 10
+Last zombies killed:
+AI35 10
+AI90 9
+AI148 8
+AI38 7
+AI28 6
+AI95 5
+AI10 4
+AI111 3
+AI65 2
+AI102 1
+Most active zombies:
+AI35 22
+AI10 21
+AI28 21
+AI38 21
+AI65 21
+AI90 21
+AI95 21
+AI102 20
+AI111 20
+AI148 20
+Least active zombies:
+AI106 1
+AI123 1
+AI133 1
+AI146 1
+AI22 1
+AI24 1
+AI87 1
+AI96 1
+MrBonyPants 1
+Zombine 1

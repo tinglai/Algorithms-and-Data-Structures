@@ -1,0 +1,311 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 27.80      0.72     0.72 49129405     0.00     0.00  bool compare_larger<Zombie*>(Zombie* const&, Zombie* const&)
+ 10.43      0.99     0.27 24605059     0.00     0.00  bool compare_less<Zombie*>(Zombie* const&, Zombie* const&)
+  8.11      1.20     0.21 25659710     0.00     0.00  Zombie::getETA()
+  4.83      1.33     0.13 73734464     0.00     0.00  bool std::operator< <char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  4.25      1.44     0.11  6787753     0.00     0.00  compList<std::_List_iterator<Zombie*> >::operator()(std::_List_iterator<Zombie*> const&, std::_List_iterator<Zombie*> const&) const
+  3.28      1.52     0.09 43692869     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::operator++()
+  2.70      1.59     0.07   691349     0.00     0.00  void std::__adjust_heap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, Zombie*, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, long, Zombie*, bool (*)(Zombie* const&, Zombie* const&))
+  2.70      1.66     0.07   233646     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > std::__unguarded_partition<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, Zombie*, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, Zombie* const&, bool (*)(Zombie* const&, Zombie* const&))
+  2.32      1.72     0.06   233646     0.00     0.00  void std::__move_median_first<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  1.93      1.77     0.05 117246058     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::operator*() const
+  1.93      1.82     0.05 30517194     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::operator+(long const&) const
+  1.93      1.87     0.05                             main
+  1.54      1.91     0.04 30750846     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::__normal_iterator(Zombie** const&)
+  1.54      1.95     0.04 30232789     0.00     0.00  std::remove_reference<Zombie*&>::type&& std::move<Zombie*&>(Zombie*&&&)
+  1.54      1.99     0.04  1275998     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::push(std::_List_iterator<Zombie*> const&)
+  1.35      2.03     0.04  2769421     0.00     0.00  bool std::operator><char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  1.16      2.06     0.03  2551996     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_M_get_node()
+  0.77      2.08     0.02 16133448     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::base() const
+  0.77      2.10     0.02 13391933     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::operator[](unsigned long)
+  0.77      2.12     0.02  3878098     0.00     0.00  void std::swap<Zombie*>(Zombie*&, Zombie*&)
+  0.77      2.14     0.02  2551996     0.00     0.00  __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::allocate(unsigned long, void const*)
+  0.77      2.16     0.02  2551996     0.00     0.00  _ZNSt4listIP6ZombieSaIS1_EE14_M_create_nodeIJRKS1_EEEPSt10_List_nodeIS1_EDpOT_
+  0.77      2.18     0.02  2551992     0.00     0.00  void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.77      2.20     0.02  1275998     0.00     0.00  _ZN9__gnu_cxx13new_allocatorIP6ZombieE9constructIS2_IRKS2_EEEvPT_DpOT0_
+  0.77      2.22     0.02   825998     0.00     0.00  std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
+  0.77      2.24     0.02        5     0.00     0.00  void std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_emplace_back_aux<std::_List_iterator<Zombie*> const&>(std::_List_iterator<Zombie*> const&&&)
+  0.77      2.26     0.02                             Zombie::Zombie(std::string&, int, int, int, int)
+  0.58      2.27     0.02 37578563     0.00     0.00  std::_List_iterator<Zombie*>::operator*() const
+  0.39      2.28     0.01 24372591     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::operator--()
+  0.39      2.29     0.01  9831991     0.00     0.00  std::_List_iterator<Zombie*>::_List_iterator(std::__detail::_List_node_base*)
+  0.39      2.30     0.01  6829993     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::end()
+  0.39      2.31     0.01  2551996     0.00     0.00  __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::deallocate(std::_List_node<Zombie*>*, unsigned long)
+  0.39      2.32     0.01  2551996     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_M_put_node(std::_List_node<Zombie*>*)
+  0.39      2.33     0.01  2551996     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::_M_erase(std::_List_iterator<Zombie*>)
+  0.39      2.34     0.01  2551996     0.00     0.00  _ZNSt4listIP6ZombieSaIS1_EE9_M_insertIJRKS1_EEEvSt14_List_iteratorIS1_EDpOT_
+  0.39      2.35     0.01  2551996     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::push_back(Zombie* const&)
+  0.39      2.36     0.01  1276008     0.00     0.00  std::_List_iterator<Zombie*>::operator--(int)
+  0.39      2.37     0.01  1275999     0.00     0.00  Zombie::getName()
+  0.39      2.38     0.01  1275998     0.00     0.00  _ZN9__gnu_cxx13new_allocatorISt14_List_iteratorIP6ZombieEE9constructIS4_JRKS4_EEEvPT_DpOT0_
+  0.39      2.39     0.01  1275998     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*> const*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator-(long const&) const
+  0.39      2.40     0.01  1275998     0.00     0.00  std::enable_if<std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::__destroy_helper<std::_List_iterator<Zombie*> >::value, void>::type std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::_S_destroy<std::_List_iterator<Zombie*> >(std::allocator<std::_List_iterator<Zombie*> >&, std::_List_iterator<Zombie*>*)
+  0.39      2.41     0.01  1275998     0.00     0.00  void std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::destroy<std::_List_iterator<Zombie*> >(std::allocator<std::_List_iterator<Zombie*> >&, std::_List_iterator<Zombie*>*)
+  0.39      2.42     0.01  1275998     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::pop_back()
+  0.39      2.43     0.01  1275998     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::push_back(Zombie* const&)
+  0.39      2.44     0.01  1125998     0.00     0.00  void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> >)
+  0.39      2.45     0.01   825998     0.00     0.00  char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
+  0.39      2.46     0.01   825998     0.00     0.00  char* std::string::_S_construct_aux<char*>(char*, char*, std::allocator<char> const&, std::__false_type)
+  0.39      2.47     0.01   691349     0.00     0.00  void std::__push_heap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, Zombie*, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, long, Zombie*, bool (*)(Zombie* const&, Zombie* const&))
+  0.39      2.48     0.01   460815     0.00     0.00  void std::__pop_heap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.39      2.49     0.01   233646     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.39      2.50     0.01        2     0.01     0.01  std::vector<Zombie*, std::allocator<Zombie*> >::end()
+  0.39      2.51     0.01        2     0.01     0.07  void std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.39      2.52     0.01        1     0.01     1.80  verbose(std::list<Zombie*, std::allocator<Zombie*> >&, std::list<Zombie*, std::allocator<Zombie*> >&, unsigned int)
+  0.39      2.53     0.01        1     0.01     0.01  pairing_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::del(pairing_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::Node*)
+  0.39      2.54     0.01                             Zombie::attacked(int)
+  0.19      2.55     0.01  5629990     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator*() const
+  0.19      2.55     0.01  4051996     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::base() const
+  0.19      2.56     0.01  3890675     0.00     0.00  bool __gnu_cxx::operator< <Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&)
+  0.19      2.56     0.01  3878098     0.00     0.00  void std::iter_swap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.19      2.57     0.01  1725998     0.00     0.00  std::_List_iterator<Zombie*>::operator!=(std::_List_iterator<Zombie*> const&) const
+  0.19      2.57     0.01  1275998     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::back() const
+  0.19      2.58     0.01  1275998     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::pop_back()
+  0.19      2.58     0.01      490     0.00     0.00  void std::make_heap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.19      2.59     0.01        4     0.00     0.00  std::_Miter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >::iterator_type std::__miter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.19      2.59     0.01        2     0.00     0.00  bool __gnu_cxx::operator==<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&)
+  0.00      2.59     0.00 14036000     0.00     0.00  Zombie* const&&& std::forward<Zombie* const&>(std::remove_reference<Zombie* const&>::type&)
+  0.00      2.59     0.00  5104007     0.00     0.00  operator new(unsigned long, void*)
+  0.00      2.59     0.00  5103994     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_M_get_Node_allocator()
+  0.00      2.59     0.00  3878098     0.00     0.00  void std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00  3827999     0.00     0.00  std::_List_iterator<Zombie*> const&&& std::forward<std::_List_iterator<Zombie*> const&>(std::remove_reference<std::_List_iterator<Zombie*> const&>::type&)
+  0.00      2.59     0.00  2552000     0.00     0.00  bool __gnu_cxx::operator!=<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&)
+  0.00      2.59     0.00  2551996     0.00     0.00  void __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::destroy<std::_List_node<Zombie*> >(std::_List_node<Zombie*>*)
+  0.00      2.59     0.00  2551996     0.00     0.00  _ZN9__gnu_cxx13new_allocatorISt10_List_nodeIP6ZombieEE9constructIS4_JRKS3_EEEvPT_DpOT0_
+  0.00      2.59     0.00  2551996     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*> const*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::__normal_iterator(std::_List_iterator<Zombie*> const* const&)
+  0.00      2.59     0.00  2551996     0.00     0.00  __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::max_size() const
+  0.00      2.59     0.00  2551996     0.00     0.00  _ZNSt10_List_nodeIP6ZombieEC2IJRKS1_EEEDpOT_
+  0.00      2.59     0.00  2252011     0.00     0.00  std::remove_reference<std::_List_iterator<Zombie*>&>::type&& std::move<std::_List_iterator<Zombie*>&>(std::_List_iterator<Zombie*>&&&)
+  0.00      2.59     0.00  1875998     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::empty() const
+  0.00      2.59     0.00  1624044     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::difference_type __gnu_cxx::operator-<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > const&)
+  0.00      2.59     0.00  1425998     0.00     0.00  bool __gnu_cxx::operator!=<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&)
+  0.00      2.59     0.00  1425998     0.00     0.00  std::_List_iterator<Zombie*>::operator++()
+  0.00      2.59     0.00  1276038     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::operator[](unsigned long)
+  0.00      2.59     0.00  1276023     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::size() const
+  0.00      2.59     0.00  1275998     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::pop()
+  0.00      2.59     0.00  1275998     0.00     0.00  Zombie::getDistance()
+  0.00      2.59     0.00  1275998     0.00     0.00  Zombie::getHealth()
+  0.00      2.59     0.00  1275998     0.00     0.00  Zombie::~Zombie()
+  0.00      2.59     0.00  1275998     0.00     0.00  void __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::destroy<std::_List_iterator<Zombie*> >(std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00  1275998     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::top() const
+  0.00      2.59     0.00  1275998     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*> const*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator*() const
+  0.00      2.59     0.00  1275998     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::end() const
+  0.00      2.59     0.00  1275998     0.00     0.00  std::_List_iterator<Zombie*>::operator--()
+  0.00      2.59     0.00  1275998     0.00     0.00  _ZNSt16allocator_traitsISaIP6ZombieEE12_S_constructIS1_IRKS1_EEENSt9enable_ifIXsrNS3_18__construct_helperIT_IDpT0_EEE5valueEvE4typeERS2_PS9_DpOSA_
+  0.00      2.59     0.00  1275998     0.00     0.00  _ZNSt16allocator_traitsISaIP6ZombieEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_
+  0.00      2.59     0.00  1275998     0.00     0.00  _ZNSt16allocator_traitsISaISt14_List_iteratorIP6ZombieEEE12_S_constructIS3_IRKS3_EEENSt9enable_ifIXsrNS5_18__construct_helperIT_IDpT0_EEE5valueEvE4typeERS4_PSB_DpOSC_
+  0.00      2.59     0.00  1275998     0.00     0.00  _ZNSt16allocator_traitsISaISt14_List_iteratorIP6ZombieEEE9constructIS3_JRKS3_EEEvRS4_PT_DpOT0_
+  0.00      2.59     0.00  1275998     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::back()
+  0.00      2.59     0.00  1275998     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::erase(std::_List_iterator<Zombie*>)
+  0.00      2.59     0.00  1275998     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::push_back(std::_List_iterator<Zombie*> const&)
+  0.00      2.59     0.00  1125998     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator--()
+  0.00      2.59     0.00  1125998     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator++()
+  0.00      2.59     0.00   825998     0.00     0.00  Zombie::Zombie(GameInfo&)
+  0.00      2.59     0.00   825998     0.00     0.00  GameInfo::getCounter()
+  0.00      2.59     0.00   825998     0.00     0.00  bool __gnu_cxx::__is_null_pointer<char>(char*)
+  0.00      2.59     0.00   825998     0.00     0.00  char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&)
+  0.00      2.59     0.00   825998     0.00     0.00  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*>(char*, char*, std::allocator<char> const&)
+  0.00      2.59     0.00   825998     0.00     0.00  std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
+  0.00      2.59     0.00   825998     0.00     0.00  std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  0.00      2.59     0.00   825998     0.00     0.00  std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
+  0.00      2.59     0.00   825998     0.00     0.00  std::to_string(int)
+  0.00      2.59     0.00   600000     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      2.59     0.00   450002     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::begin()
+  0.00      2.59     0.00   450000     0.00     0.00  Zombie::Zombie(std::string&)
+  0.00      2.59     0.00   450000     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::__normal_iterator(std::_List_iterator<Zombie*>* const&)
+  0.00      2.59     0.00   450000     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::difference_type __gnu_cxx::operator-<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&)
+  0.00      2.59     0.00   450000     0.00     0.00  Config::getDe() const
+  0.00      2.59     0.00   233646     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >::operator-(long const&) const
+  0.00      2.59     0.00   150002     0.00     0.00  std::__lg(long)
+  0.00      2.59     0.00   150000     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::make_heap()
+  0.00      2.59     0.00   150000     0.00     0.00  bool __gnu_cxx::operator==<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > > const&)
+  0.00      2.59     0.00   150000     0.00     0.00  __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >::operator+(long const&) const
+  0.00      2.59     0.00   150000     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::end()
+  0.00      2.59     0.00   150000     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::begin()
+  0.00      2.59     0.00   150000     0.00     0.00  void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00   150000     0.00     0.00  void std::__introsort_loop<__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, long, compList<std::_List_iterator<Zombie*> > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, long, compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00   150000     0.00     0.00  void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00   150000     0.00     0.00  void std::sort<__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> > >(__gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, __gnu_cxx::__normal_iterator<std::_List_iterator<Zombie*>*, std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > > >, compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00      490     0.00     0.00  void std::partial_sort<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00      490     0.00     0.00  void std::__heap_select<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00      490     0.00     0.00  void std::sort_heap<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00      110     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::size() const
+  0.00      2.59     0.00       66     0.00     0.00  __gnu_cxx::new_allocator<Zombie*>::max_size() const
+  0.00      2.59     0.00       66     0.00     0.00  std::_Iter_base<Zombie**, false>::_S_base(Zombie**)
+  0.00      2.59     0.00       66     0.00     0.00  std::_Niter_base<Zombie**>::iterator_type std::__niter_base<Zombie**>(Zombie**)
+  0.00      2.59     0.00       45     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_M_get_Tp_allocator()
+  0.00      2.59     0.00       44     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_M_get_Tp_allocator() const
+  0.00      2.59     0.00       44     0.00     0.00  std::move_iterator<Zombie**>::base() const
+  0.00      2.59     0.00       44     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::max_size() const
+  0.00      2.59     0.00       44     0.00     0.00  std::_Iter_base<std::move_iterator<Zombie**>, true>::_S_base(std::move_iterator<Zombie**>)
+  0.00      2.59     0.00       44     0.00     0.00  std::move_iterator<Zombie**>::move_iterator(Zombie**)
+  0.00      2.59     0.00       44     0.00     0.00  std::enable_if<std::allocator_traits<std::allocator<Zombie*> >::__maxsize_helper<std::allocator<Zombie*> const>::value, unsigned long>::type std::allocator_traits<std::allocator<Zombie*> >::_S_max_size<std::allocator<Zombie*> const>(std::allocator<Zombie*> const&)
+  0.00      2.59     0.00       44     0.00     0.00  std::allocator_traits<std::allocator<Zombie*> >::max_size(std::allocator<Zombie*> const&)
+  0.00      2.59     0.00       44     0.00     0.00  std::_Miter_base<std::move_iterator<Zombie**> >::iterator_type std::__miter_base<std::move_iterator<Zombie**> >(std::move_iterator<Zombie**>)
+  0.00      2.59     0.00       44     0.00     0.00  std::move_iterator<Zombie**> std::__make_move_if_noexcept_iterator<Zombie**, std::move_iterator<Zombie**> >(Zombie**)
+  0.00      2.59     0.00       40     0.00     0.00  std::move_iterator<std::_List_iterator<Zombie*>*>::base() const
+  0.00      2.59     0.00       27     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      2.59     0.00       23     0.00     0.00  void std::_Destroy_aux<true>::__destroy<Zombie**>(Zombie**, Zombie**)
+  0.00      2.59     0.00       23     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_M_deallocate(Zombie**, unsigned long)
+  0.00      2.59     0.00       23     0.00     0.00  void std::_Destroy<Zombie**>(Zombie**, Zombie**)
+  0.00      2.59     0.00       23     0.00     0.00  void std::_Destroy<Zombie**, Zombie*>(Zombie**, Zombie**, std::allocator<Zombie*>&)
+  0.00      2.59     0.00       22     0.00     0.00  __gnu_cxx::new_allocator<Zombie*>::deallocate(Zombie**, unsigned long)
+  0.00      2.59     0.00       22     0.00     0.00  __gnu_cxx::new_allocator<Zombie*>::allocate(unsigned long, void const*)
+  0.00      2.59     0.00       22     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::_M_check_len(unsigned long, char const*) const
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Zombie*>(Zombie* const*, Zombie* const*, Zombie**)
+  0.00      2.59     0.00       22     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_M_allocate(unsigned long)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<Zombie**>, Zombie**>(std::move_iterator<Zombie**>, std::move_iterator<Zombie**>, Zombie**)
+  0.00      2.59     0.00       22     0.00     0.00  void std::vector<Zombie*, std::allocator<Zombie*> >::_M_emplace_back_aux<Zombie* const&>(Zombie* const&&&)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__copy_move_a<true, Zombie**, Zombie**>(Zombie**, Zombie**, Zombie**)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__copy_move_a2<true, Zombie**, Zombie**>(Zombie**, Zombie**, Zombie**)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::uninitialized_copy<std::move_iterator<Zombie**>, Zombie**>(std::move_iterator<Zombie**>, std::move_iterator<Zombie**>, Zombie**)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__uninitialized_copy_a<std::move_iterator<Zombie**>, Zombie**, Zombie*>(std::move_iterator<Zombie**>, std::move_iterator<Zombie**>, Zombie**, std::allocator<Zombie*>&)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::__uninitialized_move_if_noexcept_a<Zombie**, Zombie**, std::allocator<Zombie*> >(Zombie**, Zombie**, Zombie**, std::allocator<Zombie*>&)
+  0.00      2.59     0.00       22     0.00     0.00  Zombie** std::copy<std::move_iterator<Zombie**>, Zombie**>(std::move_iterator<Zombie**>, std::move_iterator<Zombie**>, Zombie**)
+  0.00      2.59     0.00       20     0.00     0.00  bool std::operator==<std::_List_iterator<Zombie*>*>(std::move_iterator<std::_List_iterator<Zombie*>*> const&, std::move_iterator<std::_List_iterator<Zombie*>*> const&)
+  0.00      2.59     0.00       20     0.00     0.00  bool std::operator!=<std::_List_iterator<Zombie*>*>(std::move_iterator<std::_List_iterator<Zombie*>*> const&, std::move_iterator<std::_List_iterator<Zombie*>*> const&)
+  0.00      2.59     0.00       15     0.00     0.00  __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::max_size() const
+  0.00      2.59     0.00       15     0.00     0.00  std::move_iterator<std::_List_iterator<Zombie*>*>::operator*() const
+  0.00      2.59     0.00       15     0.00     0.00  std::move_iterator<std::_List_iterator<Zombie*>*>::operator++()
+  0.00      2.59     0.00       15     0.00     0.00  _ZSt10_ConstructISt14_List_iteratorIP6ZombieEJS3_EEvPT_DpOT0_
+  0.00      2.59     0.00       15     0.00     0.00  std::_List_iterator<Zombie*>* std::__addressof<std::_List_iterator<Zombie*> >(std::_List_iterator<Zombie*>&)
+  0.00      2.59     0.00       15     0.00     0.00  std::_List_iterator<Zombie*>&& std::forward<std::_List_iterator<Zombie*> >(std::remove_reference<std::_List_iterator<Zombie*> >::type&)
+  0.00      2.59     0.00       13     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_get_Tp_allocator()
+  0.00      2.59     0.00       10     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_get_Tp_allocator() const
+  0.00      2.59     0.00       10     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::max_size() const
+  0.00      2.59     0.00       10     0.00     0.00  std::move_iterator<std::_List_iterator<Zombie*>*>::move_iterator(std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00       10     0.00     0.00  std::_List_iterator<Zombie*>::operator++(int)
+  0.00      2.59     0.00       10     0.00     0.00  std::enable_if<std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::__maxsize_helper<std::allocator<std::_List_iterator<Zombie*> > const>::value, unsigned long>::type std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::_S_max_size<std::allocator<std::_List_iterator<Zombie*> > const>(std::allocator<std::_List_iterator<Zombie*> > const&)
+  0.00      2.59     0.00       10     0.00     0.00  std::allocator_traits<std::allocator<std::_List_iterator<Zombie*> > >::max_size(std::allocator<std::_List_iterator<Zombie*> > const&)
+  0.00      2.59     0.00       10     0.00     0.00  std::move_iterator<std::_List_iterator<Zombie*>*> std::__make_move_if_noexcept_iterator<std::_List_iterator<Zombie*>*, std::move_iterator<std::_List_iterator<Zombie*>*> >(std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00        8     0.00     0.00  void std::_Destroy_aux<true>::__destroy<std::_List_iterator<Zombie*>*>(std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00        8     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_deallocate(std::_List_iterator<Zombie*>*, unsigned long)
+  0.00      2.59     0.00        8     0.00     0.00  void std::_Destroy<std::_List_iterator<Zombie*>*>(std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00        8     0.00     0.00  void std::_Destroy<std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*> >(std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*, std::allocator<std::_List_iterator<Zombie*> >&)
+  0.00      2.59     0.00        7     0.00     0.00  compList<std::_List_iterator<Zombie*> >::compList()
+  0.00      2.59     0.00        6     0.00     0.00  std::_Iter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, true>::_S_base(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00        6     0.00     0.00  std::_Niter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >::iterator_type std::__niter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00        6     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      2.59     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::deallocate(std::_List_iterator<Zombie*>*, unsigned long)
+  0.00      2.59     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::allocate(unsigned long, void const*)
+  0.00      2.59     0.00        5     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::size() const
+  0.00      2.59     0.00        5     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_check_len(unsigned long, char const*) const
+  0.00      2.59     0.00        5     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_M_allocate(unsigned long)
+  0.00      2.59     0.00        5     0.00     0.00  std::_List_iterator<Zombie*>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*>(std::move_iterator<std::_List_iterator<Zombie*>*>, std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00        5     0.00     0.00  std::_List_iterator<Zombie*>* std::uninitialized_copy<std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*>(std::move_iterator<std::_List_iterator<Zombie*>*>, std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*)
+  0.00      2.59     0.00        5     0.00     0.00  std::_List_iterator<Zombie*>* std::__uninitialized_copy_a<std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*> >(std::move_iterator<std::_List_iterator<Zombie*>*>, std::move_iterator<std::_List_iterator<Zombie*>*>, std::_List_iterator<Zombie*>*, std::allocator<std::_List_iterator<Zombie*> >&)
+  0.00      2.59     0.00        5     0.00     0.00  std::_List_iterator<Zombie*>* std::__uninitialized_move_if_noexcept_a<std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*, std::allocator<std::_List_iterator<Zombie*> > >(std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*, std::_List_iterator<Zombie*>*, std::allocator<std::_List_iterator<Zombie*> >&)
+  0.00      2.59     0.00        4     0.00     0.00  eecs281priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::eecs281priority_queue()
+  0.00      2.59     0.00        4     0.00     0.00  eecs281priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::~eecs281priority_queue()
+  0.00      2.59     0.00        4     0.00     0.00  Config::getContainer()
+  0.00      2.59     0.00        4     0.00     0.00  std::_Iter_base<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, false>::_S_base(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::new_allocator()
+  0.00      2.59     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<std::_List_iterator<Zombie*> >::~new_allocator()
+  0.00      2.59     0.00        3     0.00     0.00  std::allocator<std::_List_iterator<Zombie*> >::allocator()
+  0.00      2.59     0.00        3     0.00     0.00  std::allocator<std::_List_iterator<Zombie*> >::~allocator()
+  0.00      2.59     0.00        3     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_Vector_impl::_Vector_impl()
+  0.00      2.59     0.00        3     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_Vector_impl::~_Vector_impl()
+  0.00      2.59     0.00        3     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::_Vector_base()
+  0.00      2.59     0.00        3     0.00     0.00  std::_Vector_base<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::~_Vector_base()
+  0.00      2.59     0.00        3     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::vector()
+  0.00      2.59     0.00        3     0.00     0.00  std::vector<std::_List_iterator<Zombie*>, std::allocator<std::_List_iterator<Zombie*> > >::~vector()
+  0.00      2.59     0.00        2     0.00     0.00  Config::getFileName()
+  0.00      2.59     0.00        2     0.00     0.00  Config::getV()
+  0.00      2.59     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::new_allocator()
+  0.00      2.59     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::_List_node<Zombie*> >::~new_allocator()
+  0.00      2.59     0.00        2     0.00     0.00  std::allocator<std::_List_node<Zombie*> >::allocator()
+  0.00      2.59     0.00        2     0.00     0.00  std::allocator<std::_List_node<Zombie*> >::~allocator()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_List_impl::_List_impl()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_List_impl::~_List_impl()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_M_init()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_M_clear()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::_List_base()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_base<Zombie*, std::allocator<Zombie*> >::~_List_base()
+  0.00      2.59     0.00        2     0.00     0.00  std::_List_iterator<Zombie*>::_List_iterator()
+  0.00      2.59     0.00        2     0.00     0.00  Zombie** std::__copy_move_backward<true, true, std::random_access_iterator_tag>::__copy_move_b<Zombie*>(Zombie* const*, Zombie* const*, Zombie**)
+  0.00      2.59     0.00        2     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::list()
+  0.00      2.59     0.00        2     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::~list()
+  0.00      2.59     0.00        2     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::begin()
+  0.00      2.59     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > std::move_backward<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00        2     0.00     0.01  void std::__insertion_sort<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00        2     0.00     0.78  void std::__introsort_loop<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, long, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00        2     0.00     0.00  Zombie** std::__copy_move_backward_a<true, Zombie**, Zombie**>(Zombie**, Zombie**, Zombie**)
+  0.00      2.59     0.00        2     0.00     0.08  void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > std::__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > > >(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >)
+  0.00      2.59     0.00        2     0.00     0.86  void std::sort<__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&)>(__gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, __gnu_cxx::__normal_iterator<Zombie**, std::vector<Zombie*, std::allocator<Zombie*> > >, bool (*)(Zombie* const&, Zombie* const&))
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z7verboseRSt4listIP6ZombieSaIS1_EES4_j
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN10ZombieWave6readinERSt14basic_ifstreamIcSt11char_traitsIcEE
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6ConfigC2Ev
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6Zombie7getNameEv
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8GameInfoC2Ev
+  0.00      2.59     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      2.59     0.00        1     0.00     0.00  ZombieWave::readin(std::basic_ifstream<char, std::char_traits<char> >&)
+  0.00      2.59     0.00        1     0.00     0.00  binary_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::binary_heap(compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00        1     0.00     0.00  binary_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::~binary_heap()
+  0.00      2.59     0.00        1     0.00     0.00  pairing_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::pairing_heap(compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00        1     0.00     0.01  pairing_heap<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::~pairing_heap()
+  0.00      2.59     0.00        1     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::sorted_priority_queue(compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00        1     0.00     0.00  sorted_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::~sorted_priority_queue()
+  0.00      2.59     0.00        1     0.00     0.00  poorman_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::poorman_priority_queue(compList<std::_List_iterator<Zombie*> >)
+  0.00      2.59     0.00        1     0.00     0.00  poorman_priority_queue<std::_List_iterator<Zombie*>, compList<std::_List_iterator<Zombie*> > >::~poorman_priority_queue()
+  0.00      2.59     0.00        1     0.00     0.00  Config::setup(int, char* const*)
+  0.00      2.59     0.00        1     0.00     0.00  Config::Config()
+  0.00      2.59     0.00        1     0.00     0.00  Config::~Config()
+  0.00      2.59     0.00        1     0.00     0.00  GameInfo::setGameInfo(std::basic_ifstream<char, std::char_traits<char> >&)
+  0.00      2.59     0.00        1     0.00     0.00  GameInfo::setDeathtouch(Config const&)
+  0.00      2.59     0.00        1     0.00     0.00  GameInfo::GameInfo()
+  0.00      2.59     0.00        1     0.00     0.00  compList<std::_List_iterator<Zombie*> >::compList(bool)
+  0.00      2.59     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Zombie*>::new_allocator()
+  0.00      2.59     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Zombie*>::~new_allocator()
+  0.00      2.59     0.00        1     0.00     0.00  Config::getArrow() const
+  0.00      2.59     0.00        1     0.00     0.00  std::allocator<Zombie*>::allocator()
+  0.00      2.59     0.00        1     0.00     0.00  std::allocator<Zombie*>::~allocator()
+  0.00      2.59     0.00        1     0.00     0.00  std::__alloc_neq<std::allocator<std::_List_node<Zombie*> >, true>::_S_do_it(std::allocator<std::_List_node<Zombie*> > const&, std::allocator<std::_List_node<Zombie*> > const&)
+  0.00      2.59     0.00        1     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_Vector_impl::_Vector_impl()
+  0.00      2.59     0.00        1     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_Vector_impl::~_Vector_impl()
+  0.00      2.59     0.00        1     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::_Vector_base()
+  0.00      2.59     0.00        1     0.00     0.00  std::_Vector_base<Zombie*, std::allocator<Zombie*> >::~_Vector_base()
+  0.00      2.59     0.00        1     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::_M_transfer(std::_List_iterator<Zombie*>, std::_List_iterator<Zombie*>, std::_List_iterator<Zombie*>)
+  0.00      2.59     0.00        1     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::_M_check_equal_allocators(std::list<Zombie*, std::allocator<Zombie*> >&)
+  0.00      2.59     0.00        1     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::splice(std::_List_iterator<Zombie*>, std::list<Zombie*, std::allocator<Zombie*> >&&)
+  0.00      2.59     0.00        1     0.00     0.00  std::list<Zombie*, std::allocator<Zombie*> >::splice(std::_List_iterator<Zombie*>, std::list<Zombie*, std::allocator<Zombie*> >&)
+  0.00      2.59     0.00        1     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::vector()
+  0.00      2.59     0.00        1     0.00     0.00  std::vector<Zombie*, std::allocator<Zombie*> >::~vector()
+  0.00      2.59     0.00        1     0.00     0.00  std::remove_reference<std::list<Zombie*, std::allocator<Zombie*> >&>::type&& std::move<std::list<Zombie*, std::allocator<Zombie*> >&>(std::list<Zombie*, std::allocator<Zombie*> >&&&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.

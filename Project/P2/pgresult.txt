@@ -1,0 +1,4 @@
+[main] debug-level=0xffffffff
+GNU gprof version 2.20.51.0.2-5.36.el6 20100205
+Based on BSD gprof, copyright 1983 Regents of the University of California.
+This program is free software.  This program has absolutely no warranty.

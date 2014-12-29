@@ -1,0 +1,46 @@
+VICTORY IN ROUND 10000! AI54808 was the last zombie. You survived with 10 health left.
+Zombies still active: 0
+First zombies killed:
+AI0 1
+spec2**0 2
+spec3**0 3
+AI1 4
+spec1**0 5
+AI2 6
+AI4 7
+AI5 8
+AI6 9
+AI7 10
+Last zombies killed:
+AI54808 10
+AI54804 9
+spec3**9999 8
+spec2**9999 7
+spec1**9999 6
+AI54807 5
+AI54806 4
+AI54805 3
+AI54803 2
+spec2**9998 1
+Most active zombies:
+AI0 1
+AI1 1
+AI10 1
+AI100 1
+AI1000 1
+AI10000 1
+AI10001 1
+AI10002 1
+AI10003 1
+AI10004 1
+Least active zombies:
+AI0 1
+AI1 1
+AI10 1
+AI100 1
+AI1000 1
+AI10000 1
+AI10001 1
+AI10002 1
+AI10003 1
+AI10004 1

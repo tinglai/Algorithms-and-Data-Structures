@@ -1,0 +1,44 @@
+Round: 1
+Created: AI0 21
+Created: AI1 35
+Created: FoxMcCloud 150
+Created: FalcoLombardi 2
+Created: SlippyToad 100
+Round: 2
+Round: 3
+Created: AI2 25
+Created: DarkLink 20
+VICTORY IN ROUND 3! DarkLink was the last zombie. You survived with 10 health left.
+Zombies still active: 0
+First zombies killed:
+AI0 1
+FalcoLombardi 2
+FoxMcCloud 3
+AI1 4
+SlippyToad 5
+AI2 6
+DarkLink 7
+Last zombies killed:
+DarkLink 7
+AI2 6
+SlippyToad 5
+AI1 4
+FoxMcCloud 3
+FalcoLombardi 2
+AI0 1
+Most active zombies:
+AI0 1
+AI1 1
+AI2 1
+DarkLink 1
+FalcoLombardi 1
+FoxMcCloud 1
+SlippyToad 1
+Least active zombies:
+AI0 1
+AI1 1
+AI2 1
+DarkLink 1
+FalcoLombardi 1
+FoxMcCloud 1
+SlippyToad 1

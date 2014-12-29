@@ -1,0 +1,30 @@
+Round: 1
+Created: AI0 21
+Created: AI1 35
+Created: FoxMcCloud 150
+Created: FalcoLombardi 2
+Created: SlippyToad 100
+Round: 2
+Moved: AI1 6
+Moved: FoxMcCloud 0
+Moved: SlippyToad 99
+DEFEAT IN ROUND 2! FoxMcCloud ate your brains!
+Zombies still active: 3
+First zombies killed:
+AI0 1
+FalcoLombardi 2
+Last zombies killed:
+FalcoLombardi 2
+AI0 1
+Most active zombies:
+AI1 2
+FoxMcCloud 2
+SlippyToad 2
+AI0 1
+FalcoLombardi 1
+Least active zombies:
+AI0 1
+FalcoLombardi 1
+AI1 2
+FoxMcCloud 2
+SlippyToad 2
