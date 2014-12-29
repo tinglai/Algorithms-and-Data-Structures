@@ -1,0 +1,18 @@
+debug info 4: 0
+debug info 5: config.get_RouteConfig() = 1
+debug info 7: 0
+debug info 9: 0
+debug info 9: e
+debug info 9: e
+debug info 8: e
+debug info 6: e
+debug info 3: e
+debug info 2: e
+debug info 1: e
+2
+2
+//path taken 
+(0,1,0,s)
+(1,1,0,w)
+(1,0,0,B)
+debug info 0: e
