@@ -1,0 +1,4 @@
+TL
+0 C_b BUY E_B $20 #50
+1 C_b SELL E_B $20 #50
+2 C_a SELL E_B $18 #2
